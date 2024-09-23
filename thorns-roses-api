@@ -1,0 +1,47 @@
+{
+    "flowers" : [
+        {
+            "Color": "Red",
+            "Species": "Rose",
+            "id": 1
+        }
+    ],
+    "nurseries" : [
+        {
+            "id": 1,
+            "Business Name": "Bud's Budding Business"
+        }
+    ],
+    "nurseryFlowers": [
+        {
+            "id":1,
+            "flowerId":1,
+            "nurseryId":1,
+            "price":2
+        }
+    ],
+    "distributors" : [
+        {
+            "id": 1,
+            "Business Name": "Ivy's International Shipping",
+            "Price Markup": 0.10
+        }
+    ],
+    "distributorNurseries": [
+        {
+            "id":1,
+            "nurseryFlowerId":1,
+            "distributorId":1
+        }
+    ],
+    "retailers" : [
+        {
+            "id": 1,
+            "Business Name": "Flowers R Us",
+            "Address": "123 Find Me Drive"
+        }
+    ],
+    "cart" : [
+        
+    ]
+}
