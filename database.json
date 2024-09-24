@@ -1,18 +1,18 @@
 {
   "flowers": [
     {
-      "Color": "Red",
-      "Species": "Rose",
+      "color": "Red",
+      "species": "Rose",
       "id": 1
     },
     {
-      "Color": "blue",
-      "Species": "Petunia",
+      "color": "blue",
+      "species": "Petunia",
       "id": 2
     },
     {
-      "Color": "green",
-      "Species": "Sunflower",
+      "color": "green",
+      "species": "Sunflower",
       "id": 3
     }
   ],
