@@ -1,47 +1,117 @@
 {
-    "flowers" : [
-        {
-            "Color": "Red",
-            "Species": "Rose",
-            "id": 1
-        }
-    ],
-    "nurseries" : [
-        {
-            "id": 1,
-            "Business Name": "Bud's Budding Business"
-        }
-    ],
-    "nurseryFlowers": [
-        {
-            "id":1,
-            "flowerId":1,
-            "nurseryId":1,
-            "price":2
-        }
-    ],
-    "distributors" : [
-        {
-            "id": 1,
-            "Business Name": "Ivy's International Shipping",
-            "Price Markup": 0.10
-        }
-    ],
-    "distributorNurseries": [
-        {
-            "id":1,
-            "nurseryFlowerId":1,
-            "distributorId":1
-        }
-    ],
-    "retailers" : [
-        {
-            "id": 1,
-            "Business Name": "Flowers R Us",
-            "Address": "123 Find Me Drive"
-        }
-    ],
-    "cart" : [
-        
-    ]
+  "flowers": [
+    {
+      "Color": "Red",
+      "Species": "Rose",
+      "id": 1
+    },
+    {
+      "Color": "blue",
+      "Species": "Petunia",
+      "id": 2
+    },
+    {
+      "Color": "green",
+      "Species": "Sunflower",
+      "id": 3
+    }
+  ],
+  "nurseries": [
+    {
+      "id": 1,
+      "Business Name": "Bud's Budding Business"
+    },
+    {
+      "id": 2,
+      "Business Name": "Rob's Flowers"
+    }
+  ],
+  "nurseryFlowers": [
+    {
+      "id": 1,
+      "flowerId": 1,
+      "nurseryId": 1,
+      "price": 2
+    },
+    {
+      "id": 2,
+      "flowerId": 1,
+      "nurseryId": 2,
+      "price": 3
+    },
+    {
+      "id": 3,
+      "flowerId": 3,
+      "nurseryId": 2,
+      "price": 3
+    }
+  ],
+  "distributors": [
+    {
+      "id": 1,
+      "Business Name": "Ivy's International Shipping",
+      "Price Markup": 0.1
+    },
+    {
+      "id": 2,
+      "Business Name": "Big Shipping",
+      "Price Markup": 0.4
+    }
+  ],
+  "distributorNurseries": [
+    {
+      "id": 1,
+      "nurseryFlowerId": 1,
+      "distributorId": 1
+    },
+    {
+      "id": 2,
+      "nurseryFlowerId": 2,
+      "distributorId": 2
+    }
+  ],
+  "retailers": [
+    {
+      "id": 1,
+      "Business Name": "Flowers R Us",
+      "Address": "123 Find Me Drive"
+    },
+    {
+      "id": 2,
+      "Business Name": "Blooming Blossoms",
+      "Address": "456 Flower Street"
+    }
+  ],
+  "retailerFlowers": [
+    {
+      "id": 1,
+      "retailerId": 1,
+      "nurseryFlowerId": 1
+    },
+    {
+      "id": 2,
+      "retailerId": 1,
+      "nurseryFlowerId": 3
+    },
+    {
+      "id": 3,
+      "retailerId": 2,
+      "nurseryFlowerId": 2
+    },
+    {
+      "id": 4,
+      "retailerId": 2,
+      "nurseryFlowerId": 3
+    }
+  ],
+  "cart": [],
+  "customers": [
+    {
+      "email": "rmack123123@gmail.com",
+      "fullName": "Robert",
+      "businessName": "Rob's Flowers",
+      "password": "abc123",
+      "id": 1
+    }
+  ]
 }
