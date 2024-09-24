@@ -371,5 +371,29 @@
       "password": "123456",
       "id": 1
     }
+  ],
+  "retailerFlowers": [
+    {
+      "id": 1,
+      "retailerId": 1,
+      "nurseryFlowerId": 1
+    },
+    {
+      "id": 2,
+      "retailerId": 1,
+      "nurseryFlowerId": 3
+    },
+    {
+      "id": 3,
+      "retailerId": 2,
+      "nurseryFlowerId": 2
+    },
+    {
+      "id": 4,
+      "retailerId": 2,
+      "nurseryFlowerId": 3
+    }
   ]
+}
+
 }
