@@ -6,24 +6,101 @@
       "id": 1
     },
     {
-      "color": "blue",
-      "species": "Petunia",
+      "color": "Yellow",
+      "species": "Tulip",
       "id": 2
     },
     {
-      "color": "green",
-      "species": "Sunflower",
+      "color": "Purple",
+      "species": "Lavender",
       "id": 3
+    },
+    {
+      "color": "White",
+      "species": "Lily",
+      "id": 4
+    },
+    {
+      "color": "Blue",
+      "species": "Bluebell",
+      "id": 5
+    },
+    {
+      "color": "Pink",
+      "species": "Daisy",
+      "id": 6
+    },
+    {
+      "color": "Orange",
+      "species": "Marigold",
+      "id": 7
+    },
+    {
+      "color": "Green",
+      "species": "Chrysanthemum",
+      "id": 8
+    },
+    {
+      "color": "Red",
+      "species": "Geranium",
+      "id": 9
+    },
+    {
+      "color": "White",
+      "species": "Jasmine",
+      "id": 10
+    },
+    {
+      "color": "Purple",
+      "species": "Iris",
+      "id": 11
+    },
+    {
+      "color": "Yellow",
+      "species": "Sunflower",
+      "id": 12
+    },
+    {
+      "color": "Pink",
+      "species": "Carnation",
+      "id": 13
+    },
+    {
+      "color": "Blue",
+      "species": "Hydrangea",
+      "id": 14
+    },
+    {
+      "color": "White",
+      "species": "Magnolia",
+      "id": 15
+    },
+    {
+      "color": "Red",
+      "species": "Peony",
+      "id": 16
     }
   ],
   "nurseries": [
     {
       "id": 1,
-      "Business Name": "Bud's Budding Business"
+      "name": "Bud's Budding Business"
     },
     {
       "id": 2,
-      "Business Name": "Rob's Flowers"
+      "name": "Petal Palace"
+    },
+    {
+      "id": 3,
+      "name": "Blossom Brothers"
+    },
+    {
+      "id": 4,
+      "name": "Garden Glory"
+    },
+    {
+      "id": 5,
+      "name": "Floral Haven"
     }
   ],
   "nurseryFlowers": [
@@ -35,7 +112,7 @@
     },
     {
       "id": 2,
-      "flowerId": 1,
+      "flowerId": 2,
       "nurseryId": 2,
       "price": 3
     },
@@ -43,19 +120,117 @@
       "id": 3,
       "flowerId": 3,
       "nurseryId": 2,
+      "price": 2.5
+    },
+    {
+      "id": 4,
+      "flowerId": 4,
+      "nurseryId": 3,
       "price": 3
+    },
+    {
+      "id": 5,
+      "flowerId": 5,
+      "nurseryId": 3,
+      "price": 1.8
+    },
+    {
+      "id": 6,
+      "flowerId": 6,
+      "nurseryId": 1,
+      "price": 2.2
+    },
+    {
+      "id": 7,
+      "flowerId": 7,
+      "nurseryId": 4,
+      "price": 1.5
+    },
+    {
+      "id": 8,
+      "flowerId": 8,
+      "nurseryId": 4,
+      "price": 2.3
+    },
+    {
+      "id": 9,
+      "flowerId": 9,
+      "nurseryId": 5,
+      "price": 3.1
+    },
+    {
+      "id": 10,
+      "flowerId": 10,
+      "nurseryId": 5,
+      "price": 2.6
+    },
+    {
+      "id": 11,
+      "flowerId": 11,
+      "nurseryId": 1,
+      "price": 3
+    },
+    {
+      "id": 12,
+      "flowerId": 12,
+      "nurseryId": 3,
+      "price": 2.4
+    },
+    {
+      "id": 13,
+      "flowerId": 13,
+      "nurseryId": 4,
+      "price": 2.8
+    },
+    {
+      "id": 14,
+      "flowerId": 14,
+      "nurseryId": 2,
+      "price": 3
+    },
+    {
+      "id": 15,
+      "flowerId": 15,
+      "nurseryId": 5,
+      "price": 1.7
+    },
+    {
+      "id": 16,
+      "flowerId": 16,
+      "nurseryId": 1,
+      "price": 3.5
     }
   ],
   "distributors": [
     {
       "id": 1,
-      "Business Name": "Ivy's International Shipping",
+      "name": "Ivy's International Shipping",
       "Price Markup": 0.1
     },
     {
       "id": 2,
-      "Business Name": "Big Shipping",
-      "Price Markup": 0.4
+      "name": "Floral Transit Co.",
+      "Price Markup": 0.12
+    },
+    {
+      "id": 3,
+      "name": "Petals & Packages",
+      "Price Markup": 0.08
+    },
+    {
+      "id": 4,
+      "name": "Blooming Couriers",
+      "Price Markup": 0.11
+    },
+    {
+      "id": 5,
+      "name": "Garden Gateway Shipping",
+      "Price Markup": 0.09
+    },
+    {
+      "id": 6,
+      "name": "Green Thumb Deliveries",
+      "Price Markup": 0.13
     }
   ],
   "distributorNurseries": [
@@ -68,18 +243,133 @@
       "id": 2,
       "nurseryFlowerId": 2,
       "distributorId": 2
+    },
+    {
+      "id": 3,
+      "nurseryFlowerId": 3,
+      "distributorId": 3
+    },
+    {
+      "id": 4,
+      "nurseryFlowerId": 4,
+      "distributorId": 4
+    },
+    {
+      "id": 5,
+      "nurseryFlowerId": 5,
+      "distributorId": 1
+    },
+    {
+      "id": 6,
+      "nurseryFlowerId": 6,
+      "distributorId": 2
+    },
+    {
+      "id": 7,
+      "nurseryFlowerId": 7,
+      "distributorId": 3
+    },
+    {
+      "id": 8,
+      "nurseryFlowerId": 8,
+      "distributorId": 4
+    },
+    {
+      "id": 9,
+      "nurseryFlowerId": 9,
+      "distributorId": 5
+    },
+    {
+      "id": 10,
+      "nurseryFlowerId": 10,
+      "distributorId": 6
+    },
+    {
+      "id": 11,
+      "nurseryFlowerId": 11,
+      "distributorId": 1
+    },
+    {
+      "id": 12,
+      "nurseryFlowerId": 12,
+      "distributorId": 2
+    },
+    {
+      "id": 13,
+      "nurseryFlowerId": 13,
+      "distributorId": 3
+    },
+    {
+      "id": 14,
+      "nurseryFlowerId": 14,
+      "distributorId": 5
+    },
+    {
+      "id": 15,
+      "nurseryFlowerId": 15,
+      "distributorId": 6
+    },
+    {
+      "id": 16,
+      "nurseryFlowerId": 16,
+      "distributorId": 4
     }
   ],
   "retailers": [
     {
       "id": 1,
-      "Business Name": "Flowers R Us",
+      "name": "Flowers R Us",
       "Address": "123 Find Me Drive"
     },
     {
       "id": 2,
-      "Business Name": "Blooming Blossoms",
-      "Address": "456 Flower Street"
+      "name": "Petal Perfection",
+      "Address": "456 Bloom Blvd"
+    },
+    {
+      "id": 3,
+      "name": "Bloom Boutique",
+      "Address": "789 Blossom St"
+    },
+    {
+      "id": 4,
+      "name": "Garden Grove",
+      "Address": "101 Orchard Ave"
+    },
+    {
+      "id": 5,
+      "name": "The Flower Emporium",
+      "Address": "202 Flora Lane"
+    },
+    {
+      "id": 6,
+      "name": "Floral Fantasies",
+      "Address": "303 Petal Parkway"
+    },
+    {
+      "id": 7,
+      "name": "Botanical Beauty",
+      "Address": "404 Stem Street"
+    },
+    {
+      "id": 8,
+      "name": "Petals Paradise",
+      "Address": "505 Vine Road"
+    },
+    {
+      "id": 9,
+      "name": "Nature's Nest",
+      "Address": "606 Leaf Lane"
+    }
+  ],
+  "cart": [],
+  "customers": [
+    {
+      "email": "blowie@example.com",
+      "fullName": "Joe",
+      "businessName": "Blow",
+      "password": "123456",
+      "id": 1
     }
   ],
   "retailerFlowers": [
@@ -103,15 +393,7 @@
       "retailerId": 2,
       "nurseryFlowerId": 3
     }
-  ],
-  "cart": [],
-  "customers": [
-    {
-      "email": "rmack123123@gmail.com",
-      "fullName": "Robert",
-      "businessName": "Rob's Flowers",
-      "password": "abc123",
-      "id": 1
-    }
   ]
+}
+
 }
